@@ -1,0 +1,18 @@
+This is a template for setting up an app in a Python virtualenv.
+
+After cloning, add your python venv to the `./venv` directory,
+activate it, and run:
+
+```bash
+./bin/python.sh -m pip install --upgrade pip
+./bin/python.sh -m pip install -r requirements.pip
+```
+
+When using this framework, always run python via `python.sh` in the
+`./bin` directory - this will set the proper environment variables
+for IPython use and for importing packages from `./app-packages`.
+
+You can override environment variables set in `./config/env_defaults.sh`
+by creating a `./config/env_local.sh` file - this file will not be
+tracked by Git.
+

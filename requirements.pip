@@ -1,0 +1,5 @@
+# Change the the Python virtualenv, then run:
+# python -m pip install -r requirements.pip
+
+# This is required to get directory history in IPython
+pickleshare
