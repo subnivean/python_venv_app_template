@@ -21,4 +21,11 @@ Best practice for running IPython Qtconsole is thusly:
 ./bin/python.sh -m jupyter qtconsole &
 ```
 
+You can also get easier access to programs in `./bin` by running:
+```
+source ./config/env_defaults.sh
+```
+
+which will prepend `./bin` to the PATH environment variable.
+
 
