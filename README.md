@@ -16,3 +16,9 @@ You can override environment variables set in `./config/env_defaults.sh`
 by creating a `./config/env_local.sh` file - this file will not be
 tracked by Git.
 
+Best practice for running IPython Qtconsole is thusly:
+```
+./bin/python.sh -m jupyter qtconsole &
+```
+
+
