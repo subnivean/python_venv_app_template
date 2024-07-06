@@ -1,3 +1,6 @@
+*Save this next line for your project's `README.md`:*
+This project was created from the template at https://github.com/subnivean/python_venv_app_template.
+
 This is a template for setting up an app in a Python virtualenv.
 
 After cloning, add your python venv to the `./venv` directory, e.g.:
