@@ -18,7 +18,7 @@ Then, activate it with:
 source ./venv/bin/activate
 ```
 
-and then run:
+and then run (after giving `requirements.pip` a look):
 
 ```bash
 ./bin/python.sh -m pip install --upgrade pip
