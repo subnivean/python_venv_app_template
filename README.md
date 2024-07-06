@@ -1,7 +1,24 @@
 This is a template for setting up an app in a Python virtualenv.
 
-After cloning, add your python venv to the `./venv` directory,
-activate it, and run:
+After cloning, add your python venv to the `./venv` directory, e.g.:
+
+```bash
+python3.12 -m venv --prompt . venv312 --upgrade-deps
+```
+
+For standardardization, link your particular venv directory to one named `venv`:
+
+```bash
+ln -sf venv312 venv
+```
+
+Then, activate it with:
+
+```bash
+source ./venv/bin/activate
+```
+
+and then run:
 
 ```bash
 ./bin/python.sh -m pip install --upgrade pip
